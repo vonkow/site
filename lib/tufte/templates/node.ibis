@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="@root/tufte.css">
+    <link rel="stylesheet" href="@root/latex.css">
+  </head>
+  <body>
+    {{ node.html }}
+  </body>
+</html>

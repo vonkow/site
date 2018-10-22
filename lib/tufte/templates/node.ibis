@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="@root/latex.css">
   </head>
   <body>
-    {{ node.html }}
+    <article>
+      {{ node.html }}
+    </article>
   </body>
 </html>

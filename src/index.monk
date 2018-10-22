@@ -1,0 +1,41 @@
+---
+title: Caz
+---
+
+# Caz's lost and found
+:p .subtitle
+  For things that I'll probably forget otherwisely
+
+:section
+  ## Thoughts on things
+    * [Cutting Tickets](cutting-tickets.html)
+
+:section
+  ## Things to remeber
+  There are a handful of quotes I suppose I should put somewhere. Here they are.
+
+  :div .epigraph
+    :blockquote
+      He who asks, gets.
+
+      :footer
+        Grace Ralston
+
+    :blockquote
+      Everyone has a plan until they get punched in the mouth.
+
+      :footer
+        Mike Tyson
+:section
+  ## About
+  Caz lives in Seattle with two cats<label class="margin-toggle sidenote-number" for="sn-link-and-jeff"></label><input type="checkbox" class="margin-toggle" id="sn-link-and-jeff"/><span class="sidenote">Lincoln and Jefferson</span>,
+  a dog<label class="margin-toggle sidenote-number" for="sn-ada"></label><input type="checkbox" class="margin-toggle" id="sn-ada"/><span class="sidenote"><a href="https://instagram.com/ada.the.border.collie/" target="_blank">Ada Jolene Bedelia-Baskerville</a></span>,
+  and a human named Andrea.
+  When not walking around the outdoors he can be found cooking things made out of plants and mushrooms, volunteering in the gift shop of an English-style conservatory<label class="margin-toggle sidenote-number" for="sn-vpc"></label><input type="checkbox" class="margin-toggle" id="sn-vpc"/><span class="sidenote"><a href="https://volunteerparkconservatory.org/" target="_blank">The Volunteer Park Conservatory</a></span>,
+  and occasionally writing things (like this).
+
+  During the week, he works as a Tech Lead at [Rover.com](https://rover.com), where he helps his team plan, estimate, and deliver on new features.
+  He also mentors and advocates for his fellow engineers, drives improvements to processes, drinks lots of tea, and plays with dogs<label class="margin-toggle sidenote-number" for="sn-rover-day-in-the-life"></label><input type="checkbox" class="margin-toggle" id="sn-rover-day-in-the-life"/><span class="sidenote"><a href="https://www.rover.com/blog/engineering/post/life-of-a-rover-engineer-caz-b/" target="_blank">An interview about it</a></span>.
+
+  ### Attributions & Thanks
+  This site was assembled with [Emacs](https://www.gnu.org/software/emacs/), [Ivy](https://github.com/dmulholland/ivy) and [Tufte CSS](https://github.com/edwardtufte/tufte-css).

@@ -1,0 +1,59 @@
+---
+title: Cutting Tickets
+---
+
+# Cutting Tickets
+:p .subtitle
+  Caz's little guide to writing tickets that Elizabeth won't laugh at
+:div .epigraph
+  :blockquote
+    :p ||
+      Tickets are a way to encapsulate work.
+      There are many ways to write them. 
+      This is one of them; it is probably not the best way to do so.
+      However, this method has been used without catastrophic results.
+      **(Ideally, tickets make work more efficient)**
+:section
+  ## Definition of Ticket
+  **A ticket describes a reasonably sized bit of work**, ranging from a few minutes to a few days worth of effort.
+
+  **Before a ticket can be Started, it should be Estimated.** This generally happens during an Estimation meeting. In a pinch the author of a ticket can call an ad-hoc estimation session or even put a value on it themselves (assuming they are willing and prepared to buy the ticket’s implementer lunch or a drink if the estimate is horribly off).
+
+:section
+  ## Story Points
+  **During Estimation, the ticket will be given an imaginary value, measured in Points.** To avoid too much granularity and/or open-endedness, this value is a fibonacci number that generally ranges between one and eight. While thirteen and even 21 point tickets are not unheard of, if a ticket is estimated to be larger than eight Points, it is generally a sign that it should be broken up into smaller tickets.
+  **Points are inherently nebulous and do not directly measure effort, complexity, time, uncertainty, or perceived risk, but can often be viewed as a combination of these factors.**
+  As is a baseline, it is assumed that one person can complete four points of work during a distraction-free day. Observationally, the typical person completes 2.76 points of work during an actual workday. Thankfully, neither 2.76 or four are a fibonacci numbers; this helps prevent Points from devolving into a concrete way of representing time.
+:section
+  ## Ticket Fields
+  **A ticket should contain at minimum a Title and a Definition of Done** (henceforth, DoD). Additionally, a ticket may contain Implementation Notes, also known as a description.
+
+  ### Title
+  **The Title sums up the ticket in a sentence or less.** It should be written like a good commit message, short, descriptive, and devoid of unnecessary detail. 
+
+  The Title should describe the work at a high enough level that anyone who has read the underlying Implementation Plan or Functional Spec can explain why said work is being done.
+
+  ### Definition of Done
+  **The Definition of Done is the most important part of the ticket.** It does not describe what needs to be done, but instead describes the state of the world once the ticket has been completed. This is a notable distinction that demands explanation.
+
+  **By describing an end state rather than a path towards said state, the focus is placed on the outcome rather than the process.** This removes ambiguity from whether or not a task has been completed and leaves more freedom for the implementer to find and choose an ideal solution. By creating a firm end state, a good DoD is a goal that can be clearly estimated against and held accountable to.
+
+  So, what does a good DoD look like?
+
+  First and foremost **it should describe the desired end state with as little room for ambiguity as possible;** if there are multiple potential outcomes, such as with tickets that require a decision, they should be explicitly stated.
+
+  Secondly, **it should be short,** no more than a few sentences at most; more context can (and should) be added to the ticket’s Implementation Notes.
+
+  Finally, **it should not be a simple restatement of the Title in a backward manner;** if a ticket is titled “do the thing”, its DoD should not be “the thing has been done”. 
+  There are exceptions to this final rule, some tickets are so straightforward that a Title alone can suffice. In these instances something along the lines of “What it says on the tin” will suffice as an adequate DoD.
+
+  ### Implementation Notes
+  If a ticket is relatively complex or if there are references and assets that will assist or be needed in the implementation, these details, links, and files should be added to the ticket as Implementation Notes. These notes are the most free-form and flexible part of the ticket. Liberal but circumspect use of them is suggested.
+
+  Implementation Notes can be used as a spillover area for complex tasks. **If a Definition of Done starts growing beyond a sentence or two, it’s generally a sign that it is time to simplify the definition and add more context to the ticket in the form of Notes.**
+
+  If there are references or assets, such as links to implementation plans, one-pagers, design specs, and static files, they should be added to these notes along with some amount of descriptive context as to what they are. If a ticket is part of a larger project, links to plans, etc, should be added to said project instead. Assets, however, always stay with the tickets that will be adding them to the codebase.
+
+  If you have a list of files that will need to be modified, add them to the notes. If there are important caveats about the part of the codebase the task will be affecting, they go into the notes. Same goes for links to relevant bits of documentation, helpful tech articles, and bits of code that accomplish a similar task.
+
+  **One of the most important part of Estimation is the discussion around the ticket. During this discussion, additional context often comes to light. It is the responsibility of the person running the Estimation meeting to distill and add this additional context to the ticket's Notes as the discussion occurs.**

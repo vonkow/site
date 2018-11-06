@@ -17,7 +17,7 @@ title: Cutting Tickets
   ## Definition of Ticket
   **A ticket describes a reasonably sized bit of work**, ranging from a few minutes to a few days worth of effort.
 
-  **Before a ticket can be Started, it should be Estimated.** This generally happens during an Estimation meeting. In a pinch the author of a ticket can call an ad-hoc estimation session or even put a value on it themselves (assuming they are willing and prepared to buy the ticket’s implementer lunch or a drink if the estimate is horribly off).
+  **Before a ticket can be started, it should be Estimated.** This generally happens during an Estimation meeting. In a pinch the author of a ticket can call an ad-hoc estimation session or even put a value on it themselves (assuming they are willing and prepared to buy the ticket's implementer lunch or a drink if the estimate is horribly off).
 
 :section
   ## Story Points
@@ -42,15 +42,15 @@ title: Cutting Tickets
 
   First and foremost **it should describe the desired end state with as little room for ambiguity as possible;** if there are multiple potential outcomes, such as with tickets that require a decision, they should be explicitly stated.
 
-  Secondly, **it should be short,** no more than a few sentences at most; more context can (and should) be added to the ticket’s Implementation Notes.
+  Secondly, **it should be short,** no more than a few sentences at most; more context can (and should) be added to the ticket's Implementation Notes.
 
-  Finally, **it should not be a simple restatement of the Title in a backward manner;** if a ticket is titled “do the thing”, its DoD should not be “the thing has been done”. 
-  There are exceptions to this final rule, some tickets are so straightforward that a Title alone can suffice. In these instances something along the lines of “What it says on the tin” will suffice as an adequate DoD.
+  Finally, **it should not be a simple restatement of the Title in a backward manner;** if a ticket is titled "do the thing", its DoD should not be "the thing has been done". 
+  There are exceptions to this final rule, some tickets are so straightforward that a Title alone can suffice. In these instances something along the lines of "What it says on the tin" will suffice as an adequate DoD.
 
   ### Implementation Notes
   If a ticket is relatively complex or if there are references and assets that will assist or be needed in the implementation, these details, links, and files should be added to the ticket as Implementation Notes. These notes are the most free-form and flexible part of the ticket. Liberal but circumspect use of them is suggested.
 
-  Implementation Notes can be used as a spillover area for complex tasks. **If a Definition of Done starts growing beyond a sentence or two, it’s generally a sign that it is time to simplify the definition and add more context to the ticket in the form of Notes.**
+  Implementation Notes can be used as a spillover area for complex tasks. **If a Definition of Done starts growing beyond a sentence or two, it's generally a sign that it is time to simplify the definition and add more context to the ticket in the form of Notes.**
 
   If there are references or assets, such as links to implementation plans, one-pagers, design specs, and static files, they should be added to these notes along with some amount of descriptive context as to what they are. If a ticket is part of a larger project, links to plans, etc, should be added to said project instead. Assets, however, always stay with the tickets that will be adding them to the codebase.
 
